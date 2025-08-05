@@ -1,0 +1,48 @@
+header .container {
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     padding: 80px 0;
+}
+
+header {
+    background: #FFF2E1;
+}
+ul {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 32px;
+    color: #113C49;
+    font-weight: 700;
+}
+
+#logo:hover {
+    color: dodgerblue;
+    text-shadow: 0px 0px 10px dodgerblue;
+}
+
+a {
+    color: #252641;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#login {
+    color: #6C6C6C;
+    padding:13px 50px;
+    background: white;
+    border-radius: 80px;
+}
+#signup {
+    background: #F48C06;
+    color: white;
+    padding:13px 50px;
+    border-radius: 80px;
+
+}
