@@ -1,0 +1,55 @@
+main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+main {
+    background: #FFF2E1;
+}
+
+.left {
+    width: 550px;
+}
+h1 {
+    font-size: 54px;
+    color: #2F327D;
+
+    span {
+        color: #F48C06;
+    }
+}
+
+p {
+    font-size: 18px;
+    color: #464646;
+    margin: 30px 0 40px 0;
+}
+
+.btns {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+    button {
+        border: none;
+
+    }
+}
+button:nth-child(1){
+    background: #F48C06;
+    color: white;
+    padding: 22px 38px ;
+    border-radius: 80px;
+    font-size: 18px;
+    font-weight: 600;
+}
+button:nth-child(2) {
+    width:70px;
+    height: 70px;
+    
+    background: transparent;
+    color: #23BDEE;
+    font-size: 27px;
+   
+}
