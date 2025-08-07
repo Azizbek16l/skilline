@@ -5,10 +5,7 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+
 
 .footer-top {
   display: flex;
