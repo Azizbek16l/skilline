@@ -56,3 +56,33 @@
       background-repeat: no-repeat;
         background-size: cover;
 }
+
+.whatis-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+        width: 42%;
+        border-radius: 30px;
+
+    }
+    padding-bottom: 100px;
+
+    h2 {
+        color: #2F327D;
+        span {
+            color: #F48C06;
+        }
+    }
+
+    p {
+        line-height: 180%;
+        font-size: 24px;
+        font-weight: 400;
+        color: #696984;
+    }
+}
+
+.whatis-info-left {
+    width: 40%;
+}

@@ -20,7 +20,7 @@ function SkillineSection() {
           </div>
           <div className='whatis-info'>
             <div className='whatis-info-left'>
-              <h2>Everything you can do in a physical classroom, you can do with Skilline</h2>
+              <h2>Everything you can do in a physical classroom, <span>you can do with Skilline</span></h2>
               <p>Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
 
             </div>
