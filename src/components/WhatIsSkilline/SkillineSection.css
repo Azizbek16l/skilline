@@ -1,0 +1,58 @@
+.whatis-header {
+    h2 {
+        color: #2F327D;
+        span {
+            color: chocolate;
+        }
+    }
+    text-align: center;
+    p{
+        width: 900px;
+        margin: 15px auto 15px auto;
+        color: #696984;
+    }
+}
+
+.whatis-cards {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    div {
+        width: 400px;
+        height: 300px;
+        border: none;
+        
+      
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: dodgerblue;
+        button {
+            margin-top: 10px;
+            font-size: 20px;
+            color: white;
+            border-radius: 15px;
+            color: white;
+            width: 250px;
+            background: #00000044;
+            border: 2px solid dodgerblue;
+        }
+    }
+
+}
+.whatis-cards div:nth-child(1){
+    background: url('https://www.snu.edu/hubfs/Imported_Blog_Media/Teaching%20a%20good%20career-1.jpg');
+      background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.whatis-cards div:nth-child(2){
+    background: url('https://study.gov.pl/sites/default/files/styles/news/public/field/image/news/adobestock_165061057_autor_antonioguillem_1.jpeg?itok=xFmtva__');
+      background-repeat: no-repeat;
+        background-size: cover;
+}
